@@ -46,6 +46,46 @@ body h6 {
 	text-transform:capitalize;
 	font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
+.accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.9s;
+  }
+  
+  .active, .accordion:hover {
+	background-color: #ccc; 
+  }
+  
+  .panel {
+  
+	display: none;
+	background-color: white;
+	overflow: hidden;
+  }
+  
+  .hoverTable{
+		  width:100%; 
+		  border-collapse:collapse; 
+	  }
+	  .hoverTable td{ 
+		  padding:7px; 1px solid;x
+			 
+	  }
+	  /* Define the default color for all the table rows */
+	  .hoverTable tr{
+		  background:#fef9e7;
+	  }
+	  /* Define the hover highlight color for the table row */
+	  .hoverTable tr:hover {
+			background-color: #abebc6;
+	  }
 h1 { font-size: 60px;}
 h2 { font-size: 36px;} 
 h3 { font-size: 24px;}

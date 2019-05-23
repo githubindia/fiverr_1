@@ -9933,6 +9933,7 @@ body {
 .ac-input:checked ~ .ac-text, .ac-sub .ac-input:checked ~ .ac-sub-text {
   opacity: 1;
   height: auto;
+  max-width: 100%;
 }
 
 .ac-sub .ac-label {

@@ -9960,3 +9960,71 @@ body {
 .ac-sub-text {
   padding: 0 1em 0 2em;
 }
+
+/* slider */
+
+#slidy-container { 
+  width: 40%; 
+  height: 40%;
+  overflow: hidden; margin: 0 auto;
+  
+
+}
+
+.slidyStyle {
+  background-color: #f3e4f3;
+}
+
+/* landing */
+
+.paragraph {
+  font-family: "Varela Round", sans-serif;
+  font-size: 27px;
+  padding: 5px;
+}
+
+.header {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  margin: auto;
+  height: 550px;
+  background: url("images/back4.jpg")
+    #ed4c91 center no-repeat;
+  background-size: cover;
+  margin: 75px 0 0 0;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+/* new */
+
+.test {
+  /* width: 500px; */
+  max-width: 250;
+  padding: 10px;
+  height: 500px;
+  line-height: 198px;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/back4.jpg');
+  /* position: absolute; */
+  text-align: center;
+}
+.test p {
+  font-size: 23px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;     
+
+}
+
+/* landing page text animation */
